@@ -1,19 +1,3 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/klin53/Lin_Capstone/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
 ---
 title: "Lin_Kun_Capstone"
 author: "Kun Lin"
@@ -91,7 +75,6 @@ ggplot(dat, aes(Predictor, Outcome))+  stat_summary(fun.data = mean_sdl,
                ) + 
   geom_jitter(width=0.1,size = 4, alpha=0.5)+ggtitle("Effect of Expanded CTG Repeats Expression on the Level of NMDA Receptors")+ylab("Fluorescence Intensity Normalized to Surface Area of Dendritic Spine, A.U.")+xlab("Virus Transduction")
 ```
-<img width="567" alt="image" src="https://user-images.githubusercontent.com/64455040/80447994-03290980-88e9-11ea-8f41-05ddd2901246.png">
 ##Monte Carlo power analysis
 
 ```{r, echo=False}
@@ -120,28 +103,4 @@ ggplot(data.frame(pval))+
   geom_histogram(aes(pval), color="#d28e00")+
   labs(x="p-value")
 ```
-
 **The proposed sample size of 25 neurons/group is sufficiently large to test the hypothesis with 90% power, sufficient to detect the estiamted difference of 25% from baseline. **
-
-<img width="564" alt="image" src="https://user-images.githubusercontent.com/64455040/80448439-5059ab00-88ea-11ea-9566-05e8e71615fe.png">
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/klin53/Lin_Capstone/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

@@ -78,6 +78,7 @@ ggplot(dat, aes(Predictor, Outcome))+  stat_summary(fun.data = mean_sdl,
 <img width="567" alt="image" src="https://user-images.githubusercontent.com/64455040/80448590-c827d580-88ea-11ea-973e-e4879f966c35.png">
 
 ##Monte Carlo power analysis
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/64455040/80448626-e7befe00-88ea-11ea-9702-1ccea57a6472.png">
 
 ```{r, echo=False}
 
@@ -106,6 +107,6 @@ ggplot(data.frame(pval))+
   labs(x="p-value")
 ```
 
-<img width="564" alt="image" src="https://user-images.githubusercontent.com/64455040/80448626-e7befe00-88ea-11ea-9702-1ccea57a6472.png">
+
 
 **The proposed sample size of 25 neurons/group is sufficiently large to test the hypothesis with 90% power, sufficient to detect the estiamted difference of 25% from baseline. **

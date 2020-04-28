@@ -105,4 +105,7 @@ ggplot(data.frame(pval))+
   geom_histogram(aes(pval), color="#d28e00")+
   labs(x="p-value")
 ```
+
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/64455040/80448626-e7befe00-88ea-11ea-9702-1ccea57a6472.png">
+
 **The proposed sample size of 25 neurons/group is sufficiently large to test the hypothesis with 90% power, sufficient to detect the estiamted difference of 25% from baseline. **

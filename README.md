@@ -75,6 +75,8 @@ ggplot(dat, aes(Predictor, Outcome))+  stat_summary(fun.data = mean_sdl,
                ) + 
   geom_jitter(width=0.1,size = 4, alpha=0.5)+ggtitle("Effect of Expanded CTG Repeats Expression on the Level of NMDA Receptors")+ylab("Fluorescence Intensity Normalized to Surface Area of Dendritic Spine, A.U.")+xlab("Virus Transduction")
 ```
+<img width="567" alt="image" src="https://user-images.githubusercontent.com/64455040/80448590-c827d580-88ea-11ea-973e-e4879f966c35.png">
+
 ##Monte Carlo power analysis
 
 ```{r, echo=False}
